@@ -24,7 +24,6 @@ My lab includes:
 - Learn network segmentation, VLANs, and L2/L3 concepts
 - Simulate perimeter security with pfSense
 - Establish secure remote access
-- Build a portfolio for cybersecurity job roles
 
 ---
 
