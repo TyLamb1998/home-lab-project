@@ -23,7 +23,7 @@ Segment network traffic into isolated VLANs to improve security and manageabilit
 ## 📝 Example CLI
 
 vlan database
-vlan 10,20,30,40
+vlan 10,20,30
 exit
 
 interface gi1/0/2
