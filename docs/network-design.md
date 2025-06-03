@@ -10,8 +10,8 @@
                             [Internet]
                                  |
                         [pfSense Router]    
-                    /                     \              
-            [ Managed Switch ]          [Open Vpn]  
-            /     |      \                 |
-    VLAN10     VLAN20   VLAN 40         VLAN 50
-     MNGT     Wireless   VM's             VPN
+                       /                \              
+              [ Managed Switch ]     [Open Vpn]  
+               /     |      \            |
+        VLAN10     VLAN20   VLAN 40    VLAN 50
+        MNGT     Wireless   VM's        VPN
