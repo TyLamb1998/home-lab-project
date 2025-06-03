@@ -11,8 +11,7 @@ Segment network traffic into isolated VLANs to improve security and manageabilit
 |---------|------------------|-----------------|-------------------------|
 | 10      | Management       | 192.168.10.0/24 | For managing switch/router |
 | 20      | Wireless Guest   | 192.168.20.0/24 | Guest Wi-Fi, restricted access |
-| 30      | Iot Devices      | 192.168.30.0/24 | Cameras |
-| 40      | Virtual Machines | 192.168.40.0/24 | Cybersecurity labs |
+| 30      | Virtual Machines | 192.168.30.0/24 | Cybersecurity labs |
 
 ## ⚙️ Configuration Steps
 
