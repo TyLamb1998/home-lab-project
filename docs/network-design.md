@@ -13,5 +13,5 @@
                        /                \              
               [ Managed Switch ]     [Open Vpn]  
                /     |      \            |
-        VLAN10     VLAN20   VLAN 40    VLAN 50
+        VLAN10     VLAN20   VLAN 30    VLAN 40
         MNGT     Wireless   VM's        VPN
