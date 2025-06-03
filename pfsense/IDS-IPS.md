@@ -32,7 +32,6 @@ To maintain network usability and reduce unnecessary noise:
 Snort is enabled on the following pfSense interfaces:
 - **WAN**: Monitors all incoming threats from the internet.
 - **LAN** (trusted): Monitors internal behavior and east-west traffic.
--**layered detection**—catching both external threats and potential lateral movement.
 
 ---
 
