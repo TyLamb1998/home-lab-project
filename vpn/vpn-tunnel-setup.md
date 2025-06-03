@@ -21,4 +21,4 @@ Access my home lab securely while traveling or working remotely.
 
 ## 📁 Files
 
-- [`openvpn-client-config.ovpn`](config/opvn.md)]: Anonymized sample client config
+- [`openvpn-client-config.ovpn`](/config/opvn.md)]: Anonymized sample client config
