@@ -7,11 +7,34 @@ Create a secure firewall ruleset that enforces least privilege across VLANs.
 
 ## 🧱 Key Rules
 
-- **Block inter-VLAN traffic** by default
-- **Allow VLAN 10** (management) to access all
-- **Allow VLAN 20** (wireless) internet access, no LAN access 
-- **Allow VLAN 30 (guest)** internet access, 
-- **Allow VLAN 40** (vpn) full access to LAN
+
+| VLAN       | Internet | LAN Access         | Notes                                           |
+|-------------------|-----------|--------------------|-------------------------------------------------|
+| **10 (Mgmt)**     | ✅ Yes   | ✅ Yes             | Full access to everything                      |
+| **20 (Wireless)** | ✅ Yes   | ❌ No              | ❗ Exception: 1 phone allowed to LAN            |
+| **30 (VMs)**      | ✅ Yes   | ✅ Yes             | Full access for test VMs             |
+| **40 (VPN)**      | ✅ Yes   | ✅ Yes             | Full remote access (LAN + VLANs)               |
+
+- 🔒 Inter-VLAN traffic is **blocked by default** unless explicitly allowed.
+# 🛡️ Home Network Firewall Rules (Security-Hardened)
+
+This document outlines the VLAN and firewall rule configuration for a secure home lab network.
+
+## 🔑 VLAN Rules Summary
+
+| VLAN | Description       | Internet | LAN Access            | Notes                                                             |
+|------|-------------------|----------|-----------------------|-------------------------------------------------------------------|
+| 10   | Management        | ✅       | ✅ (to all VLANs)    | Used for network admin; trusted systems only                      |
+| 20   | Wireless          | ✅       | 🚫                   | Only allow specific MAC/IP (e.g., phone)                          |
+| 30   | VM/Workstations   | ✅       | ✅ (Selective)       | Limit to certain ports/IPs                                        |
+| 40   | VPN               | ✅       | ✅ (to all VLANs)    | Used to simulate remote trusted access                            |
+
+
+## 🚫 Default Policy
+
+- Block all inter-VLAN traffic unless explicitly allowed
+- Allow outbound Internet by default (unless restricted)
+
 
 ## 🔁 NAT and Port Forwarding
 
