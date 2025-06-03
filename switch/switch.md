@@ -1,5 +1,5 @@
 # VLAN Setup – Managed Switch (L2)
-#Intervlan routing handled by the router
+Intervlan routing handled by the router
 
 ## 🎯 Objective
 
@@ -18,7 +18,7 @@ Segment network traffic into isolated VLANs to improve security and manageabilit
 
 1. Created VLANs on the switch CLI.
 2. Assigned ports as access/trunk depending on usage
-3. Tagged VLANs where trunking is needed (e.g., pfSense port)
+3. Tagged VLANs where trunking on pfSense port 
 4. Verified connectivity and isolation with ping tests
 
 ## 📝 Example CLI
