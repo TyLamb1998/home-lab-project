@@ -9,9 +9,9 @@ Create a secure firewall ruleset that enforces least privilege across VLANs.
 
 - **Block inter-VLAN traffic** by default
 - **Allow VLAN 10** (management) to access all
-- **Allow VLAN 20** to access internet only
-- **Allow VLAN 30 (guest)** internet only, no local LAN access
-- **Allow VLAN 40** full access to LAN/internet
+- **Allow VLAN 20** (wireless) internet access, no LAN access 
+- **Allow VLAN 30 (guest)** internet access, 
+- **Allow VLAN 40** (vpn) full access to LAN
 
 ## 🔁 NAT and Port Forwarding
 
