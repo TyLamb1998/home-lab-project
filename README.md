@@ -14,10 +14,10 @@ My lab includes:
 
 | Component | Description |
 |----------|-------------|
-| [`Cisco Switch`](switch/switch-l2-setup) | Switch configuration and VLAN setup |
-| [`pfsense Router-Firewall`](pfsense/) | pfSense firewall rules, NAT, DNS, and more |
-| [`VPN`](vpn/) | VPN tunnel setup, configs, and client .ovpn files |
-| [`Design Docs`](docs/) | Overall architecture and design notes |
+| [`Switch`](switch/switch-l2-setup) | Cisco Switch configuration and VLAN setup |
+| [`pfsense Router-Firewall`](pfsense/) | pfSense router & firewall rules, NAT, DNS, and more |
+| [`VPN`](vpn/) | OpenVPN tunnel setup, configs, certificates, .ovpn files |
+| [`docs`](docs/) | Overall architecture and design notes |
 
 ## 🚀 Goals
 
