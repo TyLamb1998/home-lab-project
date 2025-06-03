@@ -14,7 +14,7 @@ My lab includes:
 
 | Component | Description |
 |----------|-------------|
-| [`/switch`](switch/) | Switch configuration and VLAN setup |
+| [`/switch`](switch/switch-l2-setup) | Switch configuration and VLAN setup |
 | [`/pfsense`](pfsense/) | pfSense firewall rules, NAT, DNS, and more |
 | [`/vpn`](vpn/) | VPN tunnel setup, configs, and client .ovpn files |
 | [`/docs`](docs/) | Overall architecture and design notes |
